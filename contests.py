@@ -3,7 +3,6 @@ import pytz
 import requests
 import json
 from constants import *
-from config import CLIST_API_KEY_LIST
 
 epoch = datetime.utcfromtimestamp(0)
 time_format = '%Y-%m-%dT%H:%M:%S'
