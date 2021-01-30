@@ -11,6 +11,12 @@ STATE_ERROR_IN_CODECHEF_FRIENDS = '501'
 STATE_ERROR_IN_CODEFORCES_FRIENDS = '502'
 STATE_ERROR_IN_CODEFORCES_TAGS = '503'
 
+CLIST_KEY_1 = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+CLIST_KEY_2 = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+CLIST_KEY_3 = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+
+CLIST_API_KEY_LIST = [CLIST_KEY_1, CLIST_KEY_2, CLIST_KEY_3]
+
 CODEFORCES_CLIST_ID = 1
 CODECHEF_CLIST_ID = 2
 GOOGLE_CLIST_ID = 12
