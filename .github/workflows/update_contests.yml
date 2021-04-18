@@ -3,10 +3,8 @@
 name: Update contests data
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  schedule:
+  - cron: "0 0 12 * * ?"
 
   workflow_dispatch:
 
@@ -39,11 +37,11 @@ jobs:
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        if git diff --quiet $COMMIT_HASH^! -- . ':!test'; then
-          echo "No significant changes"
-        else 
+        if [[ `git status --porcelain` ]]; then
           git add data/contests.json
           git commit -m "update contests.json" -a  
+        else 
+          echo "No significant changes"
         fi
 
     - name: Push changes
