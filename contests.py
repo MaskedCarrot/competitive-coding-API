@@ -12,8 +12,7 @@ time_str = datetime.now(pytz.timezone('UTC')).strftime(time_format)
 def get_contests():
     result = {'status': STATE_PENDING, 'contests': []}
 
-    index = ((int)((datetime.now(pytz.timezone('Asia/Kolkata'))).timestamp())) % 3
-    full_url = f"{CLIST_API_KEY_LIST[index]}&start__gte={time_str}&resource__id__in={CODEFORCES_CLIST_ID},{CODECHEF_CLIST_ID},{GOOGLE_CLIST_ID},{ATCODER_CLIST_ID}"
+    full_url = f"{CLIST_KEY}&start__gte={time_str}&resource__id__in={CODEFORCES_CLIST_ID},{CODECHEF_CLIST_ID},{GOOGLE_CLIST_ID},{ATCODER_CLIST_ID}"
     url = CLIST_URL+full_url
     response = requests.get(url)
 

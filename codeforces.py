@@ -147,8 +147,3 @@ def get_problems_by_tags(tags):
         result = {'status': STATE_ERROR_IN_CODEFORCES_TAGS}
     finally:
         return result
-
-
-if __name__ == '__main__':
-    codeforces = CodeforcesUserData('MaskedCarrot01;Chuck;awoo')
-    print(codeforces.get_friend_details())

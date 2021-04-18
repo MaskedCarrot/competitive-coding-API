@@ -11,11 +11,7 @@ STATE_ERROR_IN_CODECHEF_FRIENDS = '501'
 STATE_ERROR_IN_CODEFORCES_FRIENDS = '502'
 STATE_ERROR_IN_CODEFORCES_TAGS = '503'
 
-CLIST_KEY_1 = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-CLIST_KEY_2 = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-CLIST_KEY_3 = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-
-CLIST_API_KEY_LIST = [CLIST_KEY_1, CLIST_KEY_2, CLIST_KEY_3]
+CLIST_KEY= 'MaskedCarrot&api_key=3756ead7ff87d60d0029be2c4d3b6847ad6aa1b5'
 
 CODEFORCES_CLIST_ID = 1
 CODECHEF_CLIST_ID = 2
