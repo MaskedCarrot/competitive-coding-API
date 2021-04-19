@@ -1,0 +1,2 @@
+# TruCoder-Backend
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c80b146da1624331b90f2dc9b7ad430b)](https://app.codacy.com/gh/MaskedCarrot/TruCoder-Backend?utm_source=github.com&utm_medium=referral&utm_content=MaskedCarrot/TruCoder-Backend&utm_campaign=Badge_Grade_Settings)
