@@ -1,1 +1,1 @@
-The contests.json file is updated every day at 3 am
+The contests.json file is updated everyday at 3 am UTC.
