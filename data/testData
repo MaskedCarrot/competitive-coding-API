@@ -1,5 +1,6 @@
 {
   [
+     [
     "name": "hackerrank global round",
     "link": "https://www.hackerrank.com",
     "platform": "hackerrank",
@@ -47,5 +48,6 @@
     "platform": "hackerrank",
     "startTIme": "33243423",
     "endTime": "234235235"
+  ]
   ]
 }
